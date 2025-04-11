@@ -1,0 +1,1001 @@
+busNumber,route,destination,time
+17,Kuala Belait,Xiaodukou,12:23 AM
+55,Del Campillo,Albany,12:11 AM
+89,Limen,Kanashevo,5:01 AM
+90,Pécs,Dolní Cerekev,7:17 PM
+63,Norrtälje,Mogwase,6:42 AM
+78,Pangradin Satu,Savanna-la-Mar,1:56 PM
+62,Vale,Wenwusha,5:02 AM
+100,Kansas City,Stony Plain,12:33 AM
+45,Arroio do Meio,Itambacuri,7:04 AM
+64,Piggotts,Fu’an,2:16 PM
+49,Limbuhan,Runsonglaozhai,4:30 PM
+100,Tuntum,Jianguo,6:43 PM
+25,Duas Igrejas,Santa Ana,2:04 PM
+31,Palencia,Birao,11:10 AM
+27,Taurage,Donskoye,7:22 AM
+78,Turinsk,Veřovice,1:24 PM
+46,Chengdu,Huaquirca,5:21 AM
+41,Barg-e Matāl,Bailang,1:15 AM
+41,Tallkalakh,Clarin,3:28 PM
+33,Pasirpanjang,Fukiage-fujimi,2:43 AM
+86,Pordapor Barat,Stepnogorsk,1:05 PM
+24,Gniezno,Bungtiang Barat,4:55 PM
+60,Skrunda,Laveiras,6:02 AM
+22,Zhenziliang,Cuamba,10:16 AM
+88,Kanazawa-shi,Gwandu,8:19 AM
+96,Aimin,Kiritsy,2:47 AM
+71,Kożuchów,Baofeng,12:22 PM
+88,‘Aşīrah al Qiblīyah,Novyy Oskol,7:27 PM
+96,Warin Chamrap,Dabao’anzhen,6:36 AM
+48,Presidente Epitácio,Gambaru,7:51 AM
+100,Đạ Tẻh,Cariaco,12:52 PM
+94,Bundoran,Lengshui,5:10 AM
+68,Ponyri Vtoryye,Dazaifu,1:46 PM
+66,Buaran,Luhačovice,11:27 AM
+24,Maninihon,São Filipe,1:43 PM
+11,Goya,Gwangjeok,2:28 AM
+75,Los Pinos,Quintã,1:42 AM
+22,Las Palmas,Neiba,10:53 AM
+54,Al Buq‘ah,Bucu Lor,9:43 PM
+6,Cubará,Lille,3:49 AM
+32,San Pedro Sacatepéquez,Shigu,12:40 AM
+42,Salcedo,Shidu,11:55 PM
+42,København,Zambrów,9:01 PM
+93,Dahongmen,Tugdan,11:02 AM
+48,Qaryat ad Da‘īs,Magaozhuang,12:32 PM
+59,Chadi,Kalimeneng,9:54 PM
+36,Badou,Asan,4:24 AM
+48,Planaltina,Si Satchanalai,5:02 PM
+2,Vavoua,Qo’ng’irot Shahri,6:59 PM
+11,Poddębice,Sambongmulyo,1:15 AM
+31,Kristiansand S,Šentrupert,12:01 AM
+63,Loujiadian,Rameshki,4:00 PM
+8,Bīr Nabālā,Kigoma,12:29 AM
+18,Sibinal,Stockholm,2:11 AM
+1,Tozkhurmato,Lerum,2:03 AM
+35,Lezhu,Bundoc,8:25 AM
+56,Negombo,Ginir,4:50 AM
+45,Kyaikkami,Gununganyar,9:33 PM
+97,Andapa,Shawnee Mission,7:09 PM
+49,Azeitão,Żebbuġ,11:47 AM
+68,Bailai,Radymno,9:58 PM
+59,Tuanshan,Bharatpur,4:03 PM
+76,Janūb as Surrah,Sungaimaja,5:06 PM
+38,Yermolino,Péfki,9:09 AM
+24,Dębe Wielkie,Phichai,10:02 PM
+39,May Pen,Carpentras,7:28 AM
+40,Krathum Baen,Suzuka,10:34 PM
+50,Ma'an,Tabogon,5:52 AM
+15,Xiaoya,Bankaw,5:30 AM
+26,Ketovo,Shibganj,1:42 PM
+50,Seremban,Āgaro,7:23 AM
+53,Mayuge,Atawutung,3:52 AM
+80,Seč,Goianira,3:12 PM
+57,Baishan,Verkhn’odniprovs’k,6:41 AM
+13,Wuli,La Esperanza,4:24 PM
+52,Xiage,Ndeaboh,7:44 AM
+80,Tampa,Bayan Bulag,4:47 PM
+45,Santulhão,Mulyorejo,2:10 PM
+98,Qorveh,Toila,2:43 PM
+79,Mozhaysk,Nanmen,8:51 PM
+16,Songnim,Ntoke,9:10 PM
+96,Renhe,Yengiawat,5:31 PM
+70,Bukbatang,Monte Francisco,12:45 AM
+23,Gushi,Godziszów Pierwszy,3:32 PM
+54,Lunyuk Ode,Kalinovo,3:37 AM
+69,Pruszków,Krasnoye,3:19 AM
+17,Corral,Masu,5:25 AM
+91,Morong,Pakel,9:26 AM
+94,Vose’,Petushki,7:27 AM
+85,Werbkowice,Bal Chirāgh,4:02 AM
+24,Pyrgetós,Lingyang,10:35 AM
+52,Yokosuka,Kobrinskoye,12:40 AM
+2,Dongzhang,Oeri’u,12:01 AM
+90,Andalan,Zeya,3:00 AM
+24,Kālīganj,Stizhkivs’ke,12:46 PM
+90,Getulio,Vereya,12:53 AM
+10,Quchi,Hulutao,9:44 PM
+76,Washington,Santa Quitéria do Maranhão,11:43 AM
+91,Kraljevo,Taizhou,1:13 PM
+48,Chatturat,Vrbovec,2:03 PM
+10,Visby,Qorao’zak,3:25 PM
+53,Cluny,Tengqiao,11:18 AM
+72,Kultuk,Buynichy,1:22 AM
+42,Tasīl,Telsen,12:27 PM
+31,Khandagayty,Trzciana,1:35 AM
+92,Pensacola,Taoyuan,6:12 PM
+70,Tabuny,Lingkou,3:22 PM
+58,Orizari,Tiantang,7:03 AM
+21,Saatlı,Maraã,10:14 PM
+47,Xiliu,Santisimo Rosario,4:17 AM
+30,Saint Paul,Erie,5:04 AM
+40,Kleszczewo,Ar Rawḑ,12:17 AM
+80,Ziliang,Taraš,7:20 AM
+42,Ebetsu,Coromoro,3:50 AM
+69,Henglu,Carenang Lor,1:20 PM
+49,Weitang,Ngozi,11:38 AM
+63,Jiucaigou,Tobatí,5:54 PM
+56,Leifeng,Badaogu,10:37 AM
+77,Chadian,Aleksandrów,1:00 PM
+55,Gémeos,Pionerskiy,8:37 AM
+36,El Bagre,Shangzhang,2:16 AM
+20,Kumla,Gucheng,1:07 PM
+85,Färgelanda,Teroual,4:23 AM
+42,Sapphaya,Mayskiy,4:32 PM
+93,Kvartsitnyy,Jadowniki,3:34 PM
+63,Limulunga,Yinghua,6:48 PM
+45,Churovichi,Bilyarsk,10:27 AM
+10,Tanniu,Boca Suno,3:31 PM
+2,Vřesina,Santa Bárbara de Padrões,6:40 AM
+7,San Cristobal,Gózd,10:48 PM
+54,Lobão,Vishnyakovskiye Dachi,6:41 PM
+20,Dazaifu,Springfield,8:57 AM
+34,Jiangya,União,11:26 PM
+82,Maoming,Thành Phố Lạng Sơn,8:22 PM
+99,Wuhe Chengguanzhen,Getazat,11:59 AM
+41,Jatisari,Bořitov,3:20 AM
+72,Svetlyy Yar,Injīl,10:42 PM
+50,Sinargalih,Ar Rubū‘,7:41 PM
+24,Bergen,Kobayashi,1:50 AM
+26,Cauayan,Yuanguping,2:08 AM
+79,Lela,Ujazd,9:00 PM
+60,Nunutba,Sayang Lauq,5:24 AM
+87,Surenavan,Fukuma,9:05 AM
+97,Iwye,Aoqiao,1:18 AM
+84,Kemlya,Kouvarás,5:43 AM
+8,Qingkou,Bojongaren,4:59 AM
+73,Jindu,Seattle,3:01 AM
+85,Bolo,Jurangjero,12:06 AM
+82,Nice,Chengguan,9:04 AM
+78,San Pablo,Tenggina Daya,8:54 AM
+33,La Guadalupe,Qingtong,3:56 PM
+55,Gävle,El Lolo,12:55 AM
+37,Río Segundo,Cikijing,7:16 AM
+29,Junín,Grivenskaya,4:11 PM
+21,Codrington,Philadelphia,11:11 PM
+46,Wasilków,Cesson-Sévigné,11:28 PM
+60,Shuiche,Agbannawag,5:26 PM
+31,Shajing,Město Libavá,3:15 AM
+72,Obukhiv,Lascano,12:39 AM
+51,Port Loko,Dugcal,9:10 AM
+94,Okotoks,Alqueidão,3:57 AM
+27,Gawul,Gelang,7:06 AM
+73,Fauske,Emiliano Zapata,8:44 PM
+100,Barajevo,Xiaocun,7:44 PM
+91,Luofang,Torsås,8:11 AM
+54,Chengxi,Tongzi,6:24 PM
+74,Benešov,Baidian,3:51 PM
+31,Mundão,Yarang,2:12 PM
+61,Zamoskvorech’ye,Nanggela,12:17 PM
+65,Qijiaxi,Gwangjeok,3:23 AM
+61,Chengxi,Bhamo,3:18 AM
+27,Chat Trakan,Hato Mayor del Rey,8:34 AM
+64,Korenëvo,Al Qurḩ,7:36 PM
+26,Canturay,Wola Filipowska,12:00 PM
+53,Pont-Audemer,Staritsa,11:57 AM
+5,Obiaruku Quarters,Zainsk,10:35 AM
+51,Sempol,Changsu,6:36 PM
+73,Triánta,Dembéni,8:09 PM
+79,Taunan,Argithéa,9:09 AM
+42,Jiangkou,Nong Ki,3:52 AM
+39,Āl Ma‘ūdah,Pásion,9:35 PM
+17,Kansas City,Azinhal,8:22 AM
+13,Wanliang,Qiryat Motzkin,4:41 PM
+35,Beni Khiar,Moss,7:26 PM
+95,Aurora,Świecie,6:02 PM
+43,Gaoxu,Nove-Misto,11:40 PM
+41,Kimberley,Xidianzi,8:35 AM
+45,Francisco I Madero,Jiangning,10:25 PM
+61,Malanay,Tianhe,12:29 AM
+54,Wailang,Taraju,1:55 PM
+69,Changqing,Al Qāmishlī,11:29 AM
+58,Odawara,Caçador,4:36 PM
+44,Cuilco,Pérama,7:34 PM
+35,Gueltat Zemmour,Isabela,8:28 AM
+23,Kanshan,Yuanping,9:27 AM
+90,Junín,Pecoro,11:00 PM
+17,Manyava,New Glasgow,9:34 PM
+61,Banjar Tengahbelayu,Parrita,3:17 PM
+98,Zhangdian,Kulykiv,7:10 PM
+36,Padurung,San Isidro,2:12 AM
+1,Dutsin Ma,Khandagayty,11:44 AM
+18,Temizhbekskaya,Martakert,7:13 PM
+35,Tangdong,Waalwijk,1:06 PM
+57,Ewirgol,Batatais,4:50 PM
+26,Taibao,Ccuntuma,1:47 PM
+90,Lugu,Altavista,4:49 PM
+41,Qingguang,Balangpule,7:47 PM
+7,Yongping,Qingshu,12:04 AM
+100,Novyy Nekouz,København,9:47 PM
+53,Pinega,Ash Sharyah,3:40 AM
+59,Żabnica,Sjöbo,9:14 PM
+27,Yingtou,Moutfort,5:59 AM
+96,Anolaima,Gif-sur-Yvette,1:22 PM
+57,Ipauçu,Bairro Assunção Piedade,1:59 AM
+39,Xiaohekou,Tanjungkerta,6:52 PM
+37,Avignon,Betio Village,7:50 AM
+55,Axioúpoli,Santo Antônio do Içá,1:20 AM
+44,Kampungbaru,Semiluki,12:58 PM
+54,Trinaterra,Sukasari,10:15 AM
+9,Estrada,Arinos,9:36 AM
+82,Pôsto Fiscal Rolim de Moura,Bafilo,3:40 PM
+14,Jincheng,Birmingham,3:43 PM
+63,Rolante,Mazra‘at Bayt Jinn,2:10 AM
+60,New Plymouth,Port Louis,8:57 AM
+68,Buzovna,Mangaran,11:45 AM
+21,Tufang,Henghe,3:32 PM
+8,Punta de Bombón,Cihaladan,4:28 PM
+74,Tahala,Bukama,8:17 AM
+11,Porto Feliz,Chợ Chu,12:25 AM
+83,Rungis,Moste,8:31 AM
+56,Sagara,Brovary,9:24 PM
+90,Kuchinarai,Mahendranagar,8:02 AM
+87,Le Mans,Yongning,1:23 PM
+2,Muara,Metz,3:09 PM
+17,Cikadongdong,Touzao,9:30 AM
+55,Rerawere,Villa Carlos Paz,3:29 PM
+66,Shakhun’ya,Dulag,11:50 PM
+20,Petrovskoye,As Salţ,2:58 PM
+40,Tours,Tampekan,5:07 AM
+17,Jiegan,Ntobo,3:14 PM
+87,Yilan,Chkalov,8:40 AM
+37,Huangbu,Stockholm,1:57 AM
+98,Nevel’,Svetogorsk,9:05 AM
+53,Kota Kinabalu,Herceg-Novi,5:34 PM
+1,Hrušica,Kalapadua,6:48 AM
+61,Zongjia,Jawf al Maqbābah,10:39 AM
+20,Gaotian,Ningtang,6:36 PM
+66,Lille,Yŏnggwang-ŭp,6:35 PM
+76,Xinzhou,Comandante Fontana,2:28 AM
+90,Valle Grande,Dushanbe,2:51 AM
+34,Győr,Vide,2:32 AM
+14,Huerta Grande,Las Tejerías,10:17 PM
+20,Erie,Ochla,3:13 AM
+5,Yi’an,Sumberngerjat,5:26 AM
+56,Malinaw,Dobřany,11:05 AM
+16,Tawa,Kholmsk,11:55 AM
+68,Lasehao,Libertad,8:35 PM
+76,Ludvika,Sezures,10:42 PM
+4,Kuta,Mosta,9:33 PM
+47,Ping’an,Daniwato,1:08 PM
+66,Lomba do Loução,Ma’an,12:12 PM
+56,Pisz,Kholbon,7:35 PM
+39,Franco da Rocha,Kruševac,11:15 PM
+86,Sujitan,Luxia,8:25 PM
+30,Agualva,Corail,11:22 PM
+59,Hulan,Naples,11:30 PM
+45,Jinchuan,Agios Dimitrios,7:21 AM
+77,Abraham’s Bay,Anyu,6:37 PM
+92,Dianqian,Rymättylä,8:02 AM
+96,Kanugrahan,Bileća,11:10 AM
+59,Lidong,Ol’ginskaya,6:17 PM
+88,El Paso,Ceper,7:08 PM
+84,South Bend,Mesquite,3:54 AM
+88,Ágios Pétros,Panacan,9:17 AM
+34,Rumbek,Obollo-Afor,7:28 PM
+22,Vila Nova,Sumeng,1:40 AM
+19,Vinsady,Weetombo,12:52 PM
+35,Haoshui,Austin,2:50 AM
+9,Muqi,Juren,1:58 AM
+29,Zoumaling,Luangwa,9:42 PM
+67,Shiraoi,Staritsa,3:20 AM
+42,San Jacinto,Lanxi,5:25 PM
+62,Guaimaca,Felege Neway,2:23 AM
+67,Нераште,Bokaa,10:47 PM
+73,Gaoqiao,Cuiabá,7:45 AM
+37,Piippola,Bandar-e Lengeh,4:10 AM
+61,Chichigalpa,Lingbei,9:53 AM
+4,Namangan,Salinungan Proper,12:07 AM
+95,Zhenghu,Houston,11:34 AM
+22,Kifrī,Ed,11:04 PM
+89,Dongke,Fontainhas,5:37 PM
+33,Póvoa do Valado,Seso,12:58 PM
+79,Ichinohe,Nouna,12:08 PM
+38,Tabaga,Lidoríki,5:30 PM
+74,Hyesan-si,Kanḏay,1:31 AM
+76,Petrovsk,Sukacai,11:31 PM
+6,Moju,Jinping,8:20 PM
+83,Xinjiang,Lexington,6:11 AM
+32,Callao,Riđica,7:49 AM
+95,Sanfang,Hà Tĩnh,1:55 AM
+63,Huatai,Tacoma,3:10 PM
+79,Kraśnik,Loutrá,1:15 PM
+13,Jieshou,Huacheng,12:55 PM
+93,Tomsk,Upig,2:15 AM
+44,Gharyan,Bacnar,6:40 PM
+17,San Luis,Ferreiros,3:25 AM
+19,Calamba,Bogoroditsk,7:56 PM
+99,Kingisepp,Geoktschai,1:23 AM
+38,Tulsa,Anju,10:09 AM
+42,Kirgili,Abuochiche,7:44 AM
+75,Sacramento,Stari Grad,11:15 AM
+30,Jataí,Tomingad,7:40 AM
+81,Fovissste,Chlumec nad Cidlinou,1:26 PM
+19,Agogo,Las Toscas,9:51 AM
+35,Hengjie,Pulau Pinang,11:20 PM
+9,Comé,Bissau,4:08 PM
+31,Jiupu,Pasar Kulon,12:03 AM
+86,Sobral,Tassin-la-Demi-Lune,4:42 AM
+14,Longde Chengguanzhen,Buenavista,5:41 PM
+22,Strängnäs,Khon Buri,9:51 PM
+60,Chidian,Roma,4:18 PM
+76,Oropós,Shangyu,12:49 PM
+74,Alastaro,Himeville,1:52 AM
+9,Archis,Saparua,11:56 PM
+70,Villa del Rosario,Akhmīm,5:41 PM
+29,Ulbroka,Luokeng,1:32 AM
+22,Kavallári,Krumvíř,1:15 PM
+41,Santa Fe,Rosthern,7:46 AM
+87,Shtip,Sikeshu,9:18 AM
+65,Cabreúva,Noebesa,11:56 PM
+41,Canavieiras,Centenary,4:08 AM
+62,Luzhai,Luzon,1:25 AM
+31,Nizhnevartovsk,Qiulu,1:28 AM
+24,Khueang Nai,Miami,2:27 PM
+47,Pongol,Prakhon Chai,6:49 AM
+86,Okunoya,Dolgoprudnyy,12:26 AM
+6,San Rafael,Libog,3:16 PM
+84,Gudja,Ipoti,5:05 PM
+66,Monte Novo,Novyye Cherëmushki,8:45 AM
+18,Qiping,Langchi,2:09 AM
+70,Guanshan,Cabaret,8:11 AM
+89,Babushkin,Caohe,6:44 AM
+75,Virovitica,Olenegorsk,6:27 PM
+28,Buyuan,Karmah an Nuzul,12:33 AM
+52,Sammatti,Taramana,12:39 AM
+91,Chigorodó,Tammela,4:40 PM
+14,Saltsjöbaden,Pakuwon,5:12 AM
+51,Akzhal,Kamimaruko,11:43 AM
+42,Slyudyanka,Pervoavgustovskiy,8:10 AM
+96,President Roxas,Arnage,12:55 AM
+38,Managua,Lakeland,1:36 AM
+89,Miaoyu,Gaofeng,8:28 AM
+20,Casal,Wąbrzeźno,6:35 PM
+1,Ōnojō,Qarāwat Banī Zayd,2:01 PM
+27,Dalu,Ervedosa do Douro,11:13 PM
+89,Las Terrenas,Daogao,7:06 PM
+2,Al Qaţīf,Landi Kotal,4:19 AM
+52,Tongren,Sokol,6:19 PM
+13,Masipi West,Miguel Pereira,11:12 PM
+42,Prostki,Mondoteko,7:54 PM
+28,Minyat an Naşr,Rawaapu,4:08 AM
+91,Temuji,Caieiras,10:08 PM
+9,Pô,Mŭglizh,9:02 PM
+52,Kloangrotat,Synevyr,6:30 PM
+53,Dolinsk,Hanlin,10:50 PM
+2,Debre Mark’os,Palampal,1:28 PM
+97,Xiangang,Xiangshan,2:55 AM
+60,Rangmanten,Puqi,9:27 PM
+52,Łąka Prudnicka,Batubantar,1:50 AM
+58,Pécs,Yujin,1:41 AM
+74,Gexi,Miguel Aleman,4:34 AM
+58,Stockholm,Ngangguk,10:49 AM
+50,Pobé,Konosha,9:33 AM
+12,Tiexi,Litibakul,2:40 AM
+42,Calaba,Quxia,2:18 AM
+53,Gaotang,Samara,5:04 AM
+42,Baitashan,La Paz,1:10 PM
+11,Agana Heights Village,Yashalta,3:55 AM
+77,Kishiwada,Mercedes,4:48 AM
+70,Xitieshan,Nelson,2:21 AM
+12,Zhongguan,Yijing,1:44 AM
+90,Ōmagari,Huzhen,4:29 AM
+78,Jinping,Mondragon,7:02 PM
+92,Dhī as Sufāl,San Mateo,3:48 PM
+94,Gujun,Blangkejeren,6:54 PM
+81,Barvinkove,Sanhe,11:21 PM
+34,Ferme-Neuve,Infonavit,5:25 PM
+3,Singojuruh,Sarpang,5:35 AM
+91,Rennes,Tallahassee,2:34 AM
+6,Pule,Povorino,1:25 AM
+46,Itzer,Courelas Bravas,6:50 PM
+1,Weekombaka,Karangintan,9:52 AM
+46,Gravatá,Kumlinge,4:32 PM
+86,Coronel Belisle,Chengdong,7:23 PM
+95,Huanglong,Kasiyan,12:35 PM
+2,Valence,Gachancipá,4:07 PM
+67,Rawson,Jayapura,5:57 AM
+96,El Bálsamo,Ban Phaeo,10:21 PM
+75,Crespo,Goczałkowice Zdrój,2:59 AM
+8,Raydah,Dvorovi,4:57 AM
+39,Greytown,Fufang,4:20 AM
+98,Pemba,Helsingborg,4:20 PM
+35,Yuetang,Huacao,10:57 PM
+36,Madrid,Piedrancha,1:09 AM
+95,Arganil,Sillamäe,4:03 PM
+41,Mambusao,Baitian,6:38 PM
+44,Karlshamn,Trảng Bom,7:31 PM
+7,Kigali,Belyayevka,1:35 AM
+68,Yaohua,Aki,11:27 AM
+89,Plaza de Caisán,Feicheng,7:34 AM
+74,Xinzhu,Fayzabad,4:06 PM
+75,Pontarlier,Lokot’,11:52 AM
+86,Kanigorokrajan,Visby,7:31 AM
+29,Várzea,Quezalguaque,8:14 AM
+71,Lille,Camanducaia,12:54 PM
+67,Göteborg,Leksand,10:09 PM
+8,Vladivostok,Apalit,8:47 AM
+44,Fuxin,Örebro,7:28 AM
+55,Néa Manolás,Shijak,2:19 AM
+62,Lučina,Tsákoi,11:29 AM
+31,Nanger,Karak City,5:51 PM
+77,Sadao,Cilongkrang,2:28 AM
+87,Monteiro,Admiralteisky,5:13 PM
+69,Sambopinggir,Chisong,12:52 PM
+61,Columbus,Timpas,5:11 AM
+43,Sho’rchi,Houjiachuan,8:28 AM
+75,Tegalalang,Xinghuo,2:01 PM
+96,Armenokhórion,Sinilian First,4:56 AM
+21,Touzao,Linëvo,6:50 PM
+9,Al Lagowa,Milanówek,10:38 AM
+67,Thị Trấn Hùng Quốc,Tvarožná,2:43 AM
+47,Bous,Pampamarca,11:11 AM
+33,Buracan,Olutanga,2:53 AM
+32,Frashër,Pio Duran,3:27 PM
+48,La Paz Centro,Marka,8:17 AM
+75,Kenamoen,Kotlas,5:31 PM
+31,Florida,Nadrupe,12:46 PM
+13,Gutang,Ḩarf al Musaytirah,3:14 AM
+78,Xin’andu,Kolodenka,12:17 AM
+9,Ipirá,Saint David’s,10:07 AM
+96,Cruzília,Mojocoya,3:32 PM
+65,Višňové,Mouhijärvi,11:20 PM
+91,Santa Ana,Kota Trieng,1:24 AM
+14,Bol’shoy Kamen’,Ulimonong,12:52 AM
+86,Taman,Tembol,10:55 PM
+23,Filipowice,Nanhuang,6:44 AM
+26,Tatou,Głuchów,9:55 AM
+99,Wangdian,San Fabian,1:04 PM
+23,Idrinskoye,Tongliao,10:11 AM
+95,Daping,Bato,1:34 AM
+6,Kara,Schiedam postbusnummers,10:42 AM
+9,Hejia,Mingora,8:28 PM
+5,São Torcato,Bukor,9:08 PM
+24,Daiyue,Khorixas,2:58 AM
+58,K’anak’erravan,Balagui,5:21 PM
+6,Paris 09,Apurawan,4:54 AM
+16,Lydenburg,Itagibá,11:37 AM
+50,Keleleng,Malabar,8:25 AM
+78,Hua Sai,Haghartsin,5:52 PM
+4,Urazovka,Umeå,6:52 PM
+38,Mountain View,Stockholm,2:19 AM
+71,‘Arīshah,Miches,5:39 PM
+64,Anna Regina,Schiltigheim,8:31 PM
+82,Weixin,Mont-Dore,7:29 PM
+58,Cikaso,Cirumput,9:40 AM
+1,Sumberkindagan,Chaiyaphum,8:33 AM
+37,Gebang,Brunflo,11:57 PM
+93,Outeiro Seco,Kawambwa,2:12 PM
+37,Jaguimitan,Amu Gulang Baolige,5:47 PM
+25,Cocachacra,Czemierniki,9:43 AM
+15,Dujuuma,El Tablón,3:35 AM
+62,Al Faḩāḩīl,Sangallaya,8:30 PM
+45,Novopokrovka,Haiyanmiao,6:51 PM
+24,Cibodas,Changtu,12:36 AM
+63,Amorim,Frydek,8:52 AM
+39,Sājūr,Juvisy-sur-Orge,12:49 AM
+96,Lubichowo,Leon,4:18 PM
+3,La Falda,Giesteira,1:59 AM
+41,Yangjiao,Damatou,2:18 PM
+63,Cergy-Pontoise,Kaczory,9:58 AM
+2,Plast,Surgut,7:34 PM
+63,Santo Tomas,Cortinhas,5:28 PM
+97,Nový Bor,Thị Trấn Quán Lào,8:20 AM
+54,Lantian,San Ignacio,3:50 PM
+74,Milltown,Shah Alam,6:43 PM
+77,Macapá,Glubokiy,1:25 AM
+96,Paris 12,Wentai,3:45 AM
+18,Beijie,Pico Truncado,5:01 PM
+89,Dampit,Lubbock,1:02 AM
+62,Al ‘Azīzīyah,Haukivuori,10:12 AM
+75,Guanbuqiao,Söderhamn,9:17 PM
+56,Rosmaninhal,Cacheu,1:47 PM
+8,San Diego,Marisol,7:49 PM
+85,Al Ḩāḑir,Fresno,5:49 PM
+50,Boji,Veiga,7:02 AM
+63,Sindangsuka,Jagiełła,3:13 PM
+65,Powassan,Buzen,12:11 AM
+100,Brie-Comte-Robert,Ystad,11:06 PM
+8,Nebug,Santa Rosa,12:10 AM
+87,Cesvaine,Tiên Lãng,7:30 PM
+50,Huanggang,Muramvya,9:36 PM
+48,Baculongan,Sathing Phra,10:25 AM
+78,Esteio,Xinzhou,4:12 PM
+10,Jabonga,Lutou,12:54 PM
+35,Shirokaya Rechka,Alīpur,12:44 PM
+15,Qingshan,Leping,8:06 AM
+72,Alung,Grootfontein,6:20 AM
+7,Tofa,R S,7:22 AM
+5,Erie,Gjoçaj,3:57 AM
+59,Talawi,Barapas,4:59 PM
+66,Puszczykowo,Borås,3:35 AM
+69,Bayuin,Kobleve,7:14 AM
+57,Bogotá,Gubskaya,3:54 AM
+40,Cholpon-Ata,Laprida,5:32 AM
+85,Almaguer,Uliastay,4:08 AM
+56,Andong,Sena Madureira,10:03 AM
+97,Coruripe,Longtang,3:04 AM
+70,Kastélli,Zliten,3:44 PM
+14,Phuket,Longwy,12:51 AM
+7,Trondheim,Biritiba Mirim,12:35 AM
+34,Cisiec,Antes,7:59 PM
+90,Watangan,Erdao,1:38 AM
+82,Sutton,Rizal,1:58 PM
+9,Birmingham,Songculan,4:28 PM
+50,Albania,Wąbrzeźno,6:22 PM
+47,Vale de Açores,Rosice,9:33 PM
+81,Rizómilos,Buenavista,8:57 PM
+24,Aserrí,Yangping,12:01 PM
+97,Vila Nova de Santo André,Dungkek Laok,5:55 PM
+96,Nan,Guankou,6:06 PM
+94,Tianjiazhuang,Al Ma‘baţlī,5:52 AM
+75,Drammen,Tiegai,3:58 AM
+27,Upper San Mateo,Nieying,9:25 PM
+45,Al Başrah,Tukan,4:16 PM
+13,Sibulan,Anserma,7:19 PM
+37,Varkaus,Shanshu,1:23 PM
+76,Nong Bua,Obrera,6:30 AM
+75,Dagestanskiye Ogni,Zvole,4:01 AM
+41,Progreso,Krajan Gebangan,3:20 PM
+63,Krajan Suko Kidul,Alcácer do Sal,10:53 PM
+3,Gongli,Tran,11:26 PM
+6,Sobue,Chame,11:50 AM
+3,Yaxi,Göteborg,2:45 AM
+13,Sakon Nakhon,Pampachiri,9:22 AM
+17,Goroka,San Pedro,7:37 AM
+88,Gucheng,Dobroměřice,1:25 AM
+26,Konary,Patrol,2:45 AM
+18,Tchoban Bey,San Diego,4:57 PM
+67,Huangtugang,Idvor,11:13 AM
+4,Coronda,Palenggihan,6:54 AM
+70,Dubiecko,Ivry-sur-Seine,6:48 AM
+51,Kadudampit,Huangtang,5:03 PM
+37,Pumai,Malekān,7:55 PM
+50,Mayuge,Herval,6:07 PM
+19,Cibugel,Augustów,11:33 PM
+53,Selydove,Lakbok,5:21 PM
+1,Campaka,Göteborg,3:51 PM
+44,Volovo,Stapleford,2:57 PM
+17,Santa Rosa,Mapusagafou,6:56 AM
+41,Veiros,Ritaebang,7:19 AM
+37,Stari Bohorodchany,Bourg-en-Bresse,12:45 AM
+58,Yangchengzhuang,Krzeczów,10:56 AM
+24,Palanas,Blokdesa Situgede,5:23 AM
+21,General Emilio Aguinaldo,Ampara,9:59 PM
+74,Sadar Bazar,Ambulong,5:00 AM
+37,Divnoye,Martigues,3:47 PM
+11,Momignies,Corral de Bustos,8:02 AM
+4,Zvishavane,Paris 14,1:39 PM
+41,Jagupit,Tsovazard,12:46 AM
+99,Guápiles,Taliouine,8:18 PM
+86,Tirah,Baima,1:19 PM
+83,Vänersborg,Kotaagung,8:10 PM
+32,Kuantan,Pembroke,12:23 AM
+11,Rabah,Lyambir’,12:32 PM
+57,Porsgrunn,Changmao,9:51 PM
+1,Nossa Senhora de Machede,Niš,11:05 AM
+44,Qiongshan,Sincé,10:24 PM
+53,Krajan,Beaconsfield,4:07 PM
+15,Jbaïl,Akademija (Kaunas),5:41 AM
+39,Johor Bahru,Azenha,5:45 AM
+39,Aisai,Strání,1:12 PM
+15,Banarankrajan,Sidomukti,5:30 PM
+96,Cachoeira,Brdów,9:07 AM
+56,Erenhot,Tulsīpur,5:36 PM
+5,Patao,Yehud,7:03 AM
+63,Botshabelo,San Antonio,12:36 PM
+91,Sitularang Landeuh,Rivas,6:45 AM
+60,Jiuxian,Tagnanan,6:23 AM
+11,Pregonero,Qingshandi,4:45 AM
+70,Dārāb,Igreja,11:48 AM
+32,Burujul,Krajan Dua Sumbersari,8:18 PM
+99,Kopang Satu,Fundación,4:59 PM
+18,Diriá,Amsterdam,4:28 AM
+86,Wulan,Padre Burgos,4:53 PM
+86,Yag La,Moxi,6:13 PM
+97,Nilópolis,Gunem,3:30 AM
+23,Kthella e Epërme,Dalang,4:32 PM
+29,Santo Domingo Oeste,Besole,11:31 AM
+1,Weda,Ia Kha,2:32 AM
+79,Privodino,Nilanapo,9:45 PM
+92,Onoda,Birni N Konni,3:41 AM
+28,Hellevoetsluis,Pinega,1:36 AM
+94,Bharatpur,Puricay,4:15 AM
+5,Kefang,Mionica,1:21 AM
+26,Gangdong,Garcia Hernandez,9:05 AM
+47,General Pico,Qarshi,12:54 AM
+62,Chester,Sidzina,3:32 AM
+70,Göteborg,Jetis,3:03 PM
+55,Atawutung,Norrköping,2:32 PM
+95,Skara,Talondang,7:50 PM
+17,Créteil,Haozhai,8:52 AM
+15,San Miguel,Ezeiza,9:15 AM
+33,Oenpeotnai,Allentown,3:52 PM
+43,Maliiha,Lucas,7:20 PM
+65,Nadrupe,Embajador Martini,5:44 PM
+16,Xiashe,Loutráki,1:52 AM
+5,Lubuk Sikaping,Al Qiţena,2:50 PM
+100,Ombul Barat,Póvoa de Penela,7:43 PM
+82,Bakıxanov,Dadaha,12:33 PM
+25,Lidingö,Shiree,12:51 PM
+11,East End,Bama,2:24 PM
+98,Bandjoun,Onsŏng,5:53 PM
+55,Lysogorskaya,Doropayung,12:11 PM
+80,Bocos,Shangma,9:26 AM
+59,Shatian,Karangnongko,4:27 AM
+87,Porto União,Buensuseso,2:11 AM
+34,Qiawan,Lilongwe,3:33 AM
+10,Kitami,Hebu,6:47 PM
+7,Mizhirah,Thị Trấn Nho Quan,11:35 PM
+22,Saint Petersburg,Jiuzhou,6:14 PM
+81,Plužine,Dukou,6:53 PM
+21,London,Luopioinen,4:57 PM
+33,Kosonsoy Shahri,Newala Kisimani,1:59 AM
+12,Almaguer,Turanj,10:02 PM
+82,Takanabe,Kardhiq,5:55 PM
+68,Kafarati,Meghrashen,5:03 PM
+15,Liukou,Babakan Baru,4:50 AM
+2,Fuan,Nybro,2:48 AM
+94,Phoenix,Bang Mun Nak,5:55 PM
+11,Dalheim,Krasne,5:41 PM
+46,Bogale,Meaux,11:23 PM
+36,Ettelbruck,Wangchang,5:57 AM
+11,Changuillo,Takamatsu-shi,2:39 AM
+83,København,Perm,2:20 PM
+72,San José de Ocoa,Ciawitali,5:16 AM
+55,Guanbuqiao,Contramaestre,5:55 PM
+98,Al Badārī,Ljungby,5:14 PM
+20,Huangjinbu,Osilnica,10:48 PM
+49,Primorskiy,Roma,10:50 PM
+86,Taishihe,Tashtagol,8:57 PM
+50,El Rosario,Aral,2:05 AM
+98,Sozopol,Kilim,9:10 PM
+17,Haghartsin,Coishco,8:04 PM
+99,Batelov,Kawit,8:01 PM
+21,Pitangui,Tokarnia,7:55 PM
+76,Arcos,Ban Phan Don,8:52 AM
+81,Sukth,Niugan,3:41 PM
+48,Canela,Mutengene,6:34 AM
+45,Zhoushan,Mahīn,9:12 PM
+90,Lakota,Gujiang,7:44 PM
+22,Kuroiso,Breda,11:42 AM
+78,Härnösand,Malata,8:03 AM
+48,Pitumarca,Presidente Dutra,9:14 PM
+69,Przemęt,‘Awaj,11:44 AM
+6,Liukou,Nampula,11:41 PM
+97,Verkhniye Achaluki,Kotayk’,10:07 AM
+99,Nahura,Brongkah,7:40 AM
+9,Charlotte,Prestea,4:40 PM
+92,Goulmima,Yiwa,6:22 AM
+9,Kassel,Uripa,1:57 PM
+66,Bao’an,Aihua,11:26 PM
+26,Covas da Raposa,Nago,11:20 PM
+49,Kuzhu,Arroio Grande,8:28 AM
+76,Cama Juan,Jinshanwei,9:06 AM
+8,Şaḩneh,Kebonkaret,1:58 AM
+75,Fresno,Rothesay Bay,7:15 AM
+83,Zaplavnoye,Kuma,4:12 PM
+74,Khosta,Wola Sernicka,2:39 AM
+87,Montería,Hangwula,5:18 AM
+45,Ujungpangkah,Kizlyar,6:10 AM
+93,Kibiya,Gopaan,9:28 AM
+100,Dąbrowa,Pukhavichy,4:23 PM
+22,Venezuela,Jirny,12:50 AM
+34,Avlónas,Mazongling,3:11 PM
+62,Pasongsongan,Torrijos,12:25 AM
+50,Wonorejo,Nice,11:54 PM
+31,Eskilstuna,Mozhaysk,12:14 AM
+15,Nikita,Asenovgrad,1:34 PM
+96,Siding,Kuressaare,6:04 AM
+89,Las Minas,Charyshskoye,7:46 PM
+42,Zhanjia,São Manços,11:56 AM
+64,Bergen,Carcar,8:34 AM
+24,Princeton,Kuanghe,9:30 AM
+66,Barranquilla,Las Mercedes,5:14 AM
+57,Lingdong,Zheshan,12:08 PM
+61,Tambakromo,Mesopotamía,10:01 AM
+86,Utrecht (stad),Qal‘eh Ganj,1:21 PM
+24,Ciela Lebak,Vårby,6:16 PM
+62,Santiago de Chuco,Lobamba,1:55 PM
+24,Otterburn Park,Taouloukoult,7:09 PM
+86,Długosiodło,Lantian,10:58 AM
+19,Sananduva,Monte Francisco,7:01 AM
+47,Guojiazhuang,Troyan,3:19 AM
+14,Nusajaya,Ménaka,3:07 AM
+27,Villa Nueva,Lijiaxiang,9:33 PM
+50,Lavradio,Kinel’-Cherkassy,9:53 PM
+73,Fontenay-sous-Bois,Hanji,1:21 AM
+9,Gary,Lushnjë,7:00 PM
+22,Ughelli,Eg-Uur,8:28 AM
+53,Krông Kmar,Fushan,7:59 PM
+80,Hanna,Jantake,7:00 PM
+50,Salamá,Basyūn,7:16 AM
+11,Shitouhe,Nanmuping,9:00 AM
+33,Melfi,Sŭedinenie,3:28 PM
+98,Ouidah,Taluksangay,3:21 AM
+30,Trondheim,Kuala Terengganu,1:29 AM
+30,Chubek,El Bolsón,2:20 PM
+2,Sovetsk,Barão de Cocais,6:40 PM
+73,Tuochuan,Mimbaan Timur,8:15 PM
+38,Chrastava,Saint-Jérôme,9:59 AM
+2,Brailiv,Zhangpu,5:54 PM
+88,Dzwola,Dom Pedrito,3:33 PM
+63,Carapelhos,Barubandung,3:17 AM
+44,Ciawitali,Dengyue,5:23 AM
+31,Magomeni,Haicheng,6:34 AM
+88,Nandulehe,Danao,4:48 PM
+33,Nubma,Yinhedahan’er,12:30 PM
+75,Vereya,Yerba Buena,6:27 PM
+55,Hekinan,Tojal,5:21 AM
+31,Laban,Hengliang,1:38 PM
+4,La Cruz,Massaranduba,7:39 PM
+98,Arāk,Longkali,5:00 AM
+52,Saltsjö-Boo,Conima,6:14 AM
+78,Zielona Góra,Kototujuh,2:28 PM
+57,Rizal,Zheleznogorsk,12:10 AM
+26,Pekan,Roissy Charles-de-Gaulle,9:15 AM
+2,Nueva Manoa,Gongchang Zhen,7:45 PM
+4,Xiaoshanzi,Bahui,4:30 AM
+14,Kedungsinggil,Aiánteio,11:17 PM
+100,Polyarnyye Zori,Nyrkiv,2:02 PM
+10,Lam Sonthi,Ping’an,6:01 PM
+59,Laḩij,Qijiaxi,9:31 AM
+97,Rana,Ourtzagh,8:33 AM
+50,San Carlos,Buyant,8:54 PM
+1,Codrington,Massawa,3:58 AM
+57,Baturaja,Xiaoweizhai,1:18 PM
+23,Baishan,Komatsu,9:10 AM
+60,Tengrela,Alīpur,4:25 PM
+8,Mpika,Shihuajian,4:56 PM
+41,Apeldoorn,Yesan,12:04 AM
+13,Ozërsk,Cerrillos,4:58 AM
+51,Gumuk Tengah,Kotablolong,9:07 AM
+70,Stulovo,Meitang,6:39 PM
+75,Alemanguan,Sławatycze,4:12 AM
+75,Ōgaki,Lipinki Łużyckie,12:47 PM
+67,Sugito,Tanabi,9:06 AM
+48,Luleå,Sabana Grande,10:16 PM
+3,San Francisco,Umanday Centro,4:02 AM
+2,Songshi,Paine,5:36 AM
+20,Bāzārak,Caotan,3:43 PM
+19,Tena,Novomykolayivka,6:21 PM
+21,Gebang,Velyki Sorochyntsi,9:50 PM
+60,Jiaocha,Volary,2:22 AM
+49,Samdrup Jongkhar,Umeå,10:58 AM
+9,Myhove,Gandrungmangu,7:58 PM
+45,Sinubong,Kampungbaru,6:17 AM
+94,Estrela,Saint-Quentin-en-Yvelines,4:06 PM
+14,Las Sabanas,Cilebang Satu,9:43 PM
+30,Caibarién,Arcueil,11:58 AM
+33,Tiron,Vantaa,10:34 PM
+43,Chenfang,Zhouji,4:27 PM
+81,Zhujiang,Preserje pri Radomljah,9:57 AM
+46,Debrecen,Murom,8:35 PM
+65,Nong Khae,Ciechanowiec,9:43 PM
+7,Samho-rodongjagu,Hongmen,5:44 AM
+65,Chavarría,Bendo,3:23 PM
+50,Takahashi,Yaodian,2:42 AM
+76,Jalālpur,Guagua,2:33 AM
+16,Dubna,São Mateus,1:29 PM
+3,Minshan,Los Boquerones,3:10 AM
+17,Pigí,Escazú,10:59 AM
+14,Timbó,Xinxiang,9:01 PM
+6,Lomba do Loução,Oyo,2:22 AM
+41,Semamung,Kinamayan,11:13 AM
+100,Japerejo,Sidi Moussa,1:57 PM
+77,Norrtälje,Shendang,11:30 PM
+53,Pindi Bhattiān,Heping,6:54 PM
+25,Batiano,Calizo,4:06 PM
+83,Ḩajjah,Fontaínhas,10:16 PM
+75,Niutian,Kŭlob,5:55 PM
+4,Huangtugang,Xingquan,4:25 AM
+84,Okhansk,Moriguchi,1:57 AM
+16,Zangbawa,Mūḩ Ḩasan,12:00 PM
+62,Odoyev,Sámi,7:48 AM
+60,Floreşti,España,11:34 AM
+7,Lakki Marwat,Progreso,6:49 PM
+34,Bailang,Ciudad Bolívar,8:54 PM
+48,Reggio Calabria,Sanxi,3:40 AM
+67,Fufang,Proletarsk,1:28 AM
+89,Cacocum,Phong Điền,9:50 AM
+83,Yanas,Asaita,4:11 AM
+52,Doksy,Dosso,3:52 AM
+74,Tabūk,Yanwukou,3:57 AM
+2,Changzhou,Skała,11:22 PM
+80,Talagasari,Zduńska Wola,11:30 AM
+72,El Pino,Pirava,4:04 PM
+33,Courbevoie,Tonghong,2:17 PM
+19,Pamupukan,Canmore,3:31 AM
+42,Bílovice,Wulong,1:17 AM
+46,Newton,Bukui,6:24 PM
+60,Guinsadan,Qiping,8:22 PM
+43,Camachile,Sann,5:24 PM
+49,Sundbyberg,Junyang,7:23 PM
+46,Daduo,Obninsk,10:50 AM
+30,Lianghe,Bofuer,8:16 AM
+54,Leles,Taiping,9:16 AM
+60,Yidu,Jurm,9:11 AM
+74,Bayside,Wingham,1:56 AM
+65,Negara,Matanog,2:12 PM
+42,Panggungsari,Al Azraq ash Shamālī,11:26 AM
+94,Lengji,Cabagan,6:51 AM
+41,Monte de Trigo,Lesnoye,5:03 AM
+10,Trunovskoye,Gongnong,1:02 AM
+97,Carcassonne,Suqiaoxiang,8:51 AM
+23,Al Mukallā,Shangdian,1:43 AM
+69,Marseille,Lelystad,5:02 PM
+51,Wootton,Verdizela,11:58 AM
+24,Xiekou,Zhenziliang,2:41 AM
+74,Bozkow,Bokino,6:03 PM
+97,Lubuagan,Torsby,4:44 PM
+52,Неготино,Gorbatovka,2:20 AM
+8,Huangduobu,Kandi,2:57 AM
+12,Zhongben,Quilo-quilo,12:40 AM
+74,Concepción,Sofia,3:19 PM
+38,Hisings Kärra,Camindangan,7:36 AM
+20,Nieuw Nickerie,George Hill,4:27 AM
+73,Plottier,Gif-sur-Yvette,11:01 AM
+87,Genyem,Uglegorsk,6:09 PM
+20,Oslo,Ubonratana,1:16 PM
+12,Fuyo,Oliveira,6:42 PM
+73,La Gacilly,Agrelo,9:48 PM
+16,Dulangan,Göteborg,12:59 PM
+28,Uluale,Parkent,10:57 PM
+43,Krugersdorp,Радовиш,10:51 PM
+10,Cikembar,Uppsala,4:29 AM
+95,La Tuque,Ratilangi,5:56 PM
+55,Komendantsky aerodrom,Surkhakhi,8:46 AM
+84,Ciherang,Mölndal,7:59 PM
+53,Black River,Rucava,9:57 PM
+58,Thakhèk,Mabini,10:03 AM
+76,Piru,Varberg,7:44 AM
+61,Mitsuke,Zizhao,3:03 AM
+57,Shebekino,New Orleans,5:35 AM
+75,Jacura,Tầm Vu,10:10 PM
+96,Bang Kho Laem,Dobroměřice,7:53 AM
+5,Ibiúna,Fontenay-sous-Bois,9:12 PM
+37,Khao Kho,Toumodi,6:20 PM
+77,Kayima,Abū Qalqal,2:33 PM
+72,Panalo-on,Solidaridad,4:36 PM
+97,Tagta,Požarevac,4:22 PM
+44,Matiao,Lameira,4:53 PM
+85,Xianyan,Kirkuk,10:20 AM
+10,Ishikari,Tekikbanyuurip,2:04 PM
+15,Albion,Nancheng,5:57 AM
+29,Pambuhan,Kėdainiai,7:57 PM
+30,Asker,Kapotnya,7:59 AM
+78,Bulangan,Wangjiaping,6:16 PM
+81,Khoa,Xarag,4:24 PM
+87,Paghmān,Asopós,7:16 AM
+62,Zaslawye,Gore,5:14 PM
+8,Paris 09,Kungsbacka,1:15 AM
+49,Shangfang,Soasio,7:50 AM
+10,Usicayos,Le Mans,6:12 PM
+38,Aikmel,Spassk,5:16 PM
+20,Banī Ḩassān,Santa Maria da Feira,5:19 PM
+83,Guandi,Chicago,10:35 AM
+85,Boguchar,Kolomanu,10:29 AM
+58,Luebo,Huangma,1:10 AM
+33,Agudos,Paris 20,11:34 AM
+94,Yoshikawa,Zagora,3:35 AM
+80,Moca,Cibunar,9:24 PM
+42,Železný Brod,Barretos,5:46 PM
+89,Busungbiu,Chãos,9:58 AM
+59,Pampa de los Guanacos,Yangxu,4:02 PM
+69,Asembagus,Camaquã,8:27 PM
+74,Pyinmana,Thamaga,1:53 AM
+30,Yimnón,Ardee,5:14 AM
+12,Jianxincun,Shawan,5:03 PM
+63,San Antonio,Yahil’nytsya,12:59 PM
+44,Rozkishne,Bugojno,1:16 PM
+54,Sutton,Cipicung,6:44 PM
+78,Lorut,Joaçaba,4:17 PM
+82,Lille,Çobansığnaq,1:21 AM
+10,Cibanten,Marovoay,1:08 AM
+63,Nuradilovo,Yao,1:41 AM
+42,Mondorf-les-Bains,Budta,4:32 PM
+100,Karangmulyo,Eystur,8:56 PM
+80,Santa Cruz,Caparrapí,7:15 PM
+21,Alto Río Senguer,Oktyabr’sk,10:29 PM
+19,Cireundang,Štěchovice,8:18 PM
+33,Tessalit,Dongda,11:47 PM
+38,Jiangcun,Tomaševac,12:33 AM
+69,Kozlovice,Zhukovka,4:33 AM
+70,Mundolsheim,Pilzno,6:22 AM
+76,La Rochelle,Gävle,3:31 PM
+100,Nanzhang Chengguanzhen,Jezerce,1:26 AM
+74,Partikan,Hanjiashu,2:57 AM
+22,Ouijjane,Waina,4:00 AM
+3,Yingtan,Lugovoy,3:15 AM
+87,Pasirsongket Dua,Malianchuan,5:14 PM
+55,Woha,Tampa,9:50 PM
+79,Chikeng,Moholm,7:08 PM
+34,Unaí,Zhongbao,12:11 PM
+1,Bizerte,Xylotymbou,10:54 AM
+41,Santa Marta de Penaguião,Kentongan,9:55 AM
+98,Pirajuí,Leramatang,1:35 PM
+45,Kibiti,Aparecida do Taboado,10:18 AM
+44,Bogatynia,Cimanggu,9:09 PM
+50,Laxou,Dangjiaxian,8:29 PM
+8,Fukuechō,Kapotnya,1:02 PM
+80,Dongshan,Yangzhuang,11:32 AM
+72,Mujur Satu,Podporozh’ye,10:04 AM
+75,Sinhyeon,Yongfeng,12:34 PM
+80,Kupahandap,Karipidita,9:04 PM
+5,Staraya Stanitsa,Talisay,12:32 PM
+42,Arma,Ramotswa,5:46 PM
+59,Lubango,Richmond,10:03 PM
+99,Lydenburg,Małkinia Górna,4:27 PM
+6,Sanli,Hamburg,1:10 AM
+25,Xiangshan,Gamovo,9:28 AM
+59,Niitsu-honchō,Pandat,4:15 AM
+39,El Porvenir,Nantes,9:59 AM
+72,Albarraque,Al Ḩudaydah,7:07 PM
+79,Temuji,Boniewo,8:05 AM
+68,Bayt ‘Ūr at Taḩtā,Sukasenang,9:14 PM
+79,Bytkiv,Agraharam,6:35 PM
+67,Onsŏng,Gaomiaoji,6:12 AM
+64,Nong Bua Lamphu,Shazhou,9:55 AM
+95,Shakhty,Paris 09,6:57 PM
+2,Augusto Corrêa,Taluncemara,2:26 AM
+36,Dabu,Bochum,11:22 PM
+13,Ketangi,Belyayevka,3:08 AM
+28,Menghe,Lomé,12:43 AM
+2,Congkar,Cincinnati,12:59 AM
+59,Zhouling,Limbalod,5:44 PM
+28,Prado,Belfort,5:39 AM
+46,Orikhiv,Cumba,8:39 AM
+60,Colotenango,Vargön,9:27 PM
+30,Nong Khai,Dapeng,7:18 AM
+31,Munggang,Sanrao,1:59 PM
+33,Újezd,Beaumont,8:07 PM
+43,Zhonghuopu,Siemiątkowo,4:11 AM
+19,Obanazawa,Orichi,7:25 AM
+55,Sinait,Cajacay,3:34 AM
+91,Zhongcun,Mingyuedian,1:39 PM
+91,Vale,Boisbriand,11:52 PM
+84,Caçador,Srubec,10:03 AM
+68,Bagou,Yaoundé,10:50 AM
+53,Vilque Chico,Seattle,9:29 PM
+2,Czarna Woda,Kawm Umbū,1:06 AM
+86,Nyazura,Ang Thong,10:15 AM
+15,Margotuhu Kidul,Ust’-Kut,9:46 AM
+93,Nanjiao,Baranów,6:05 AM
+19,Vélizy-Villacoublay,København,5:43 AM
+97,Jambuir Timur,Neyvo-Rudyanka,11:16 PM
+74,Firmat,Huangjinbu,3:08 AM
+7,Maricá,Gibsons,9:33 AM
+70,Spitak,Shuangyang,9:30 AM
+51,Limoges,Dongfu,4:27 PM
+14,Ouangani,Qindu,8:44 PM
+20,Ngangpo,Puzi,10:37 AM
+91,Yangdian,Haibeitou,4:38 PM
+90,Paris La Défense,Sloboda,3:39 AM
+3,Kozhva,Menlou’ao,5:48 PM
+22,Hejia,Náousa,6:11 PM
+11,Cisiih,Vailoa,9:55 AM
+63,Lahishyn,Ridder,8:16 AM
+32,Ad Dujayl,Grazhdanka,6:19 AM
+20,Kerek,Barapas,1:44 PM
+23,Rizokárpaso,Xiejia,8:56 AM
+76,Zebrzydowice,Butembo,10:17 AM
+11,Changxingbao,Machachi,6:22 PM
+19,Newport News,Sakurai,8:59 AM
+10,Turan,Motong,5:05 AM
+47,Xishanzui,Néos Skopós,8:47 AM
+56,Veghel,Belyye Berega,2:41 PM
+39,Malāyer,Wuqiao,9:31 AM
+49,Mūdīyah,Boshchorbogh,6:16 PM
+11,Hājīganj,Guay,3:34 PM
+1,Carandaí,Dapo,6:00 AM
+66,Ikšķile,Brdów,12:08 AM
+97,Yahil’nytsya,Gołkowice,10:28 PM
+38,Karangsono,Gracias,7:49 AM
+76,Llano de Piedra,Montbéliard,12:38 AM
+41,Lévis,Mijiang,12:27 PM
+31,Göteborg,Menongue,9:35 AM
+4,‘Izbat al Burj,Solntsevo,7:54 PM
+77,Kirkuk,Soito,1:25 AM
+18,Providencia,Jiamaying,4:59 PM
+94,Borlänge,Coronel Fabriciano,4:36 AM

@@ -1,0 +1,204 @@
+/* Hamburger Icon */
+.hamburger {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger .bar {
+  width: 90%;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+/* Sidebar */
+.navbar {
+  position: fixed;
+  left: -300px;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  padding: 1rem 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.navbar.open {
+  left: 0;
+}
+
+/* Close Icon */
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.2rem;
+  color: #ffdd57;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Title */
+.nav-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 0.05em;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #ffdd57;
+  transform: translateX(5px);
+}
+
+.nav-active {
+  color: #ffdd57;
+  font-weight: bold;
+}
+/* Profile Section */
+.profile-section {
+  margin-top: 1.5rem; /* Instead of pushing to bottom */
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-icon:hover {
+  color: #ffdd57;
+}
+
+.profile-dropdown {
+  margin-top: 10px;
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 5px;
+  color: #f0f0f0;
+}
+
+.profile-dropdown p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.profile-dropdown button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 6px;
+  background: #ff5252;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.profile-dropdown button:hover {
+  background: #e04747;
+}
+/* Floating Button */
+.profile-floating-btn {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  background: #1a1a1a;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  z-index: 1100;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Card */
+.profile-card-popup {
+  position: fixed;
+  top: 70px;
+  right: 25px;
+  width: 220px;
+  background: #1a1a1a;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 1100;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card-popup h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.profile-card-popup p {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.profile-card-popup button {
+  background: #ff5757;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.profile-card-popup button:hover {
+  background: #e14545;
+}
+
+

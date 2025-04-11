@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top left, #1e1e1e, #0a0a0a 80%);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.pomodoro-ui {
+  min-height: 100vh;
+  min-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .hamburger .bar {
+    width: 90%;
+    height: 5px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+    transition: all 0.4s ease;
+  }
+  .navbar {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6f6;
+    padding: 1rem 1rem;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    transition: left 0.4s ease;
+    z-index: 1000;
+  }
+  .nav-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: rgb(20, 19, 19);
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .nav-link {
+    position: relative;
+    color: rgb(57, 56, 56);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: #1d1d1d;
+    transition: width 0.3s ease;
+  }
+/* Pomodoro page wrapper with gradient */
+.pomodoro-ui .circle-wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    border-radius: 50%;
+    margin: 50px auto;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3), 0 0 50px rgba(0, 255, 255, 0.2);
+}
+
+/* Neon-style Number Circles */
+.circle-number {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a090a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.4), 0 0 20px rgba(0, 255, 200, 0.2);
+}
+
+.circle-number:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.6), 0 0 30px rgba(0, 255, 200, 0.4);
+}
+
+/* When Selected */
+.circle-number.selected {
+    background: linear-gradient(145deg, #ff4e50, #f9d423);
+    color: #fff;
+    box-shadow: inset 0 0 15px rgba(255, 78, 80, 0.5),
+                inset 0 0 25px rgba(249, 212, 35, 0.4);
+}
+
+/* Central Timer Circle */
+.main-timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    height: 180px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(145deg, #00c9ff, #92fe9d);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset -5px -5px 25px rgba(0, 255, 200, 0.3),
+                inset 5px 5px 25px rgba(0, 255, 200, 0.1);
+    position: relative;
+}
+  .pomodoro-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1400px;
+    gap: 60px;
+}
+
+/* Left Panel */
+.left-panel {
+    flex: 1;
+}
+
+.pomodoro-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.timer-icon {
+    color: #f39c12;
+    font-size: 40px;
+}
+
+.pomodoro-description {
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+/* Right Panel */
+.right-panel {
+    flex: 1;
+    position: relative;
+}
+  
+  
+  .main-text {
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    color: #4e4c4c;
+    z-index: 1;
+  }
+  
+  .main-timer-glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .central-play {
+    font-size: 120px;
+    color: rgba(29, 29, 29, 0.2);
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-bottom: 1px;
+  }
+  
+  .main-timer-glow:hover .central-play {
+    color: rgba(0, 255, 200, 0.6);
+    filter: drop-shadow(0 0 10px rgba(0, 255, 200, 0.7));
+}
+  
+
+  
+  /* Timer Screens */
+  .timer-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .work-mode {
+    background: linear-gradient(deg, #ff6f61, #e85d55);
+  }
+  
+  .break-mode {
+    background: linear-gradient(deg, #42e695, #3bb2b8);
+  }
+  
+  /* Timer Circle */
+  .timer-circle {
+    width: 350px;
+    height: 350px;
+    background: rgba(247, 242, 242, 0.1);
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .timer-text {
+    font-size: 50px;
+    color: #f4eeee;
+    font-weight: bold;
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .btn-3d {
+    background: linear-gradient(145deg, #1e1e35, #2c2c54);
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(83, 204, 255, 0.4),
+                inset 0 0 8px rgba(255, 0, 255, 0.3);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #53ccff; /* neon cyan */
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-3d:hover {
+    background: linear-gradient(145deg, #3c3c7a, #1b1b3c);
+    color: #ff00ff; /* neon magenta on hover */
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.5),
+                inset 0 0 8px rgba(83, 204, 255, 0.4);
+}
+
+
+/* .light-mode {
+  background: radial-gradient(circle at top left, #f0f0f0, #e3e3e3 80%);
+  color: #222;
+}
+
+.light-mode .navbar {
+  background-color: #ffffff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .nav-title {
+  color: #222;
+}
+
+.light-mode .nav-link {
+  color: #444;
+}
+
+.light-mode .nav-link::after {
+  background: #444;
+}
+
+.light-mode .circle-wrapper {
+  background: linear-gradient(135deg, #f5f5f5, #e3e3e3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .circle-number {
+  background: linear-gradient(135deg, #0078ff, #30d5c8);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 120, 255, 0.3);
+}
+
+.light-mode .circle-number.selected {
+  background: linear-gradient(145deg, #ff6b6b, #f7b42c);
+  color: #fff;
+  box-shadow: inset 0 0 15px rgba(255, 78, 80, 0.5);
+}
+
+.light-mode .main-timer {
+  background: linear-gradient(145deg, #ffb400, #ffdd55);
+  box-shadow: inset -5px -5px 25px rgba(255, 180, 0, 0.3);
+}
+
+.light-mode .pomodoro-heading {
+  color: #222;
+}
+
+.light-mode .pomodoro-description {
+  color: #0f0d0d;
+}
+
+.light-mode .timer-circle {
+  background: rgba(255, 255, 255, 0.85);
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.light-mode .timer-text {
+  color: #222;
+}
+
+.light-mode .btn-3d {
+  background: linear-gradient(145deg, #ffffff, #dcdcdc);
+  color: #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.light-mode .btn-3d:hover {
+  background: linear-gradient(145deg, #e3e3e3, #cfcfcf);
+  color: #ff5733;
+  box-shadow: 0 0 15px rgba(255, 87, 51, 0.3);
+}
+ */
+
+ :root {
+  --background-light: #f5f5f5;
+  --text-light: #333;
+  --circle-light: #ffcc70;
+
+  --background-dark: #1e1e1e;
+  --text-dark: #ffffff;
+  --circle-dark: #1e90ff;
+}
+
+/* Light Mode */
+.pomodoro-ui.light {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.pomodoro-ui.light .timer-circle {
+  background-color: var(--circle-light);
+}
+
+/* Dark Mode */
+.pomodoro-ui.dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.pomodoro-ui.dark .timer-circle {
+  background-color: var(--circle-dark);
+}
+
+/* Timer Circle */
+.timer-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: background 0.3s ease;
+}

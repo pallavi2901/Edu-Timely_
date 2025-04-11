@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    padding: 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #203a43, #0f2027);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+
+
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+.agenda-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.agenda-wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.agenda-wrapper::-webkit-scrollbar-thumb {
+    background: #764ba2;
+    border-radius: 10px;
+}
+
+.agenda-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.calendar-container {
+    max-width: 350px;
+    /* width: 100%; */
+    background: linear-gradient(135deg, #9fedd9, #1d778c);
+    border-radius: 15px;
+    margin-top: 400px;
+    margin-bottom:8px;
+    padding: 20px;
+    box-shadow: 0 6px 16px rgba(249, 246, 246, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%;
+    align-items: center;
+    color: #fff;
+    transition: all 0.3s ease;
+    position:absolute;
+    overflow: visible;
+    flex:1;
+}
+
+.react-calendar {
+    width: 100% !important; 
+    max-width: 100%;
+    overflow: auto; 
+    background: linear-gradient(135deg, #0a6d4c, #72ecce);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.react-calendar__viewContainer {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.calendar-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.custom-calendar {
+    width: 100%;
+    max-width: 300px;
+}
+
+.calendar-container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.agenda-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+    margin-left: 350px;
+    min-height: 80hv;
+    margin-top: 90px;
+    padding: 20px;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    border-radius: 16px;
+    overflow: visible;
+}
+
+.agenda-details {
+    width: 100%;
+    max-width: 700px;
+    height: 800px;
+    padding: 15px;
+    margin-top:390px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1, #fbc2eb);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow:hidden;
+}
+
+.agenda-details h2 {
+    font-size: 20px;
+    color: #fcfbfd;
+    text-align: center;
+}
+
+
+.agenda-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.agenda-columns .completed-tasks-container,
+.agenda-columns .not-completed-tasks-container {
+    flex: 1 1 45%;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.agenda-columns h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.agenda-columns ul {
+    list-style: none;
+}
+
+.agenda-columns li {
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+
+.completed-tasks-container {
+    flex: 1;
+    background: linear-gradient(135deg, #1e7c00, #27ae60);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.not-completed-tasks-container {
+    flex: 1;
+    background: linear-gradient(135deg, #c0392b, #e74c3c);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    height: auto;  
+    padding: 20px;
+    margin: 20px 20px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #fbc2eb, #f9d423, #ff9a9e, #fad0c4);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 280px !important;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.chart-container h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 768px) {
+    .agenda-wrapper {
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .agenda-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .agenda-details {
+        padding: 10px;
+    }
+
+    .calendar-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .custom-calendar {
+        max-width: 250px;
+    }
+
+    .agenda-details h2,
+    .chart-container h3,
+    .agenda-columns h3 {
+        font-size: 16px;
+    }
+
+    .agenda-columns li {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .agenda-wrapper {
+        padding: 10px;
+    }
+
+    .agenda-container {
+        padding: 10px;
+    }
+
+    .agenda-details {
+        padding: 8px;
+    }
+
+    .agenda-details h2,
+    .chart-container h3,
+    .agenda-columns h3 {
+        font-size: 14px;
+    }
+
+    .calendar-container {
+        padding: 10px;
+    }
+
+    .custom-calendar {
+        max-width: 100%;
+    }
+
+    .agenda-columns li {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .agenda-wrapper {
+        flex-direction: column;
+        align-items: center;
+        min-height: unset;
+    }
+
+    .calendar-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .agenda-container {
+        width: 100%;
+        min-height: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chart-container {
+        max-width: 100%;
+        text-align: center;
+    }
+}
