@@ -1,0 +1,5 @@
+### GET Tasks API
+GET http://localhost:5000/api/tasks/
+
+### GET Calendar Events API
+GET http://localhost:5000/api/calendar/events

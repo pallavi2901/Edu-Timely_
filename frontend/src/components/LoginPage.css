@@ -1,0 +1,122 @@
+/* LoginPage.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  animation: fadeIn 1s ease-in;
+}
+/* body,HTML{
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #203a43, #0f2027);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  animation: slideIn 0.7s ease-in-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #764ba2;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  padding-right: 40px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #764ba2;
+}
+
+.login-container button {
+  background: #667eea;
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #5a67d8;
+}
+
+.signup-link {
+  margin-top: 15px;
+  display: inline-block;
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .login-container {
+    width: 90%;
+    padding: 30px;
+  }
+}
+.signup-link{
+  color: #667eea;
+  text-decoration: none;
+  font-size: 14px;
+}
+.login-footer{
+  color:#333;
+}

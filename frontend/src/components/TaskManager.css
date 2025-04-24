@@ -1,0 +1,324 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* .task-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+} */
+.task-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background: #9a9afb;
+    display: flex;
+    min-height: 550px;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add Task Button */
+.add-task-btn {
+    padding: 10px 15px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.add-task-btn:hover {
+    background: #45a049;
+}
+
+/* Wrapper that splits into two halves */
+.task-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Each half */
+/* .task-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 16px;
+} */
+.task-form {
+    background: hsl(240, 31%, 58%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    flex: 1;
+    height: 400px;
+}
+
+.task-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.task-form button {
+    background: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.task-form button:hover {
+    background: #1e88e5;
+}
+
+.task-list {
+    flex:3;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    vertical-align: top;
+    width: 50%;
+    max-height: 450px; /* Customize this */
+    overflow-y: auto;
+    margin-left: 20px;
+    margin-top:20px;
+    padding: 20px;
+}
+
+.task-list > .task-card {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .task-wrapper {
+        flex-direction: column;
+    }
+}
+.no-tasks {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-top: 50px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-tasks-icon {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .task-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .task-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .task-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Form styles */
+.task-form h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.task-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.task-inputs input {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.task-inputs input:focus {
+    border-color: #4f46e5;
+    background-color: #ebedf3;
+}
+
+.task-inputs button {
+    padding: 12px;
+    background: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.task-inputs button:hover {
+    background: #3730a3;
+}
+
+/* Unique colored task cards */
+/* Unique colored task cards */
+/* Different colors for each row */
+.task-card:nth-child(5n+1) { background: #c2275b; color: white; }
+.task-card:nth-child(5n+2) { background: #227cbb; color: white; }
+.task-card:nth-child(5n+3) { background: #1cab28; color: white; }
+.task-card:nth-child(5n+4) { background: #ac751d; color: white; }
+.task-card:nth-child(5n+5) { background: #5218a8; color: white; }
+
+
+.task-card {
+    background: #d6d6ee;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Checkbox */
+.task-card input {
+    cursor: pointer;
+}
+
+.task-card div:last-child {
+    display: flex;
+    gap: 8px;
+}
+.task-card span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.task-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.task-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.task-card p {
+    font-size: 14px;
+    color: #f2f3ea;
+    margin-top: 8px;
+}
+
+.task-card .task-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.task-card .task-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.task-card .task-actions .edit-btn {
+    background: #e81a07;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.task-card .task-actions .edit-btn:hover {
+    background: #e0a800;
+}
+
+.task-card .task-actions .delete-btn {
+    background: #dc3545;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.task-card .task-actions .delete-btn:hover {
+    background: #c82333;
+}
+input, button {
+    cursor: pointer;
+  }
+  * {
+    z-index: 1; /* Ensure elements are clickable */
+  }
+  .task-card button {
+    background: #ff5252;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.task-card button:hover {
+    background: #d32f2f;
+}
+
+.task-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .task-slot {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+  }
+  

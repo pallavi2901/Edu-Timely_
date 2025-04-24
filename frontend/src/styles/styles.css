@@ -1,0 +1,23 @@
+/* src/styles/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #fcd34d;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  

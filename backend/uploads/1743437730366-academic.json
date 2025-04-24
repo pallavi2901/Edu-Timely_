@@ -1,0 +1,27 @@
+{
+  "overallGPA": 0,
+  "totalCredits": 0,
+  "years": [
+    {
+      "year": "Year 1",
+      "gpa": 0,
+      "semesters": [
+        {
+          "term": "Semester 1",
+          "classes": [
+            {
+              "name": "pc",
+              "credits": 4,
+              "gpa": 8
+            },
+            {
+              "name": "LA and OD",
+              "credits": 4,
+              "gpa": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

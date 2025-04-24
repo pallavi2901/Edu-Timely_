@@ -1,0 +1,61 @@
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.date-cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer; /* Fix: Ensure clickable */
+  background-color: #fafbfb;
+}
+
+.date-cell.clickable:hover {
+  background-color: #ddd;
+}
+
+.empty-cell {
+  background: none;
+  border: none;
+}
+
+  .calendar-cell {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; /* Match this with .day-name above */
+    border: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .day,
+  .empty-day {
+    padding: 15px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 4px;
+  }
+  
+  .day:hover {
+    background: #ffcc80;
+  }
+  
+  .empty-day {
+    background: transparent;
+    border: none;
+    cursor: default;
+  }
+  .active-day:hover {
+    background-color: lightblue;
+  }

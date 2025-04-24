@@ -1,0 +1,74 @@
+.event-list {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  width: 100%; /* make it 100% of parent */
+}
+  
+  .event-list h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #222;
+    text-align: center;
+  }
+  
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-item span {
+    font-size: 14px;
+    color: #333;
+    flex: 1;
+  }
+  
+  .event-item button {
+    margin-left: 8px;
+    padding: 5px 10px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s ease;
+  }
+  
+  .event-item button:hover {
+    background: #0f5bb5;
+  }
+  
+  .event-item button:last-child {
+    background: #ffa000;
+  }
+  
+  .event-item button:last-child:hover {
+    background: #ff8f00;
+  }
+  .event-list {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    background: #fafafa;
+  }
+  
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .event-item button {
+    margin-left: 6px;
+  }
+  
