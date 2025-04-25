@@ -1,4 +1,4 @@
-/* Signup.css */
+Signup.css
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #ff758c, #ff7eb3);
@@ -117,4 +117,90 @@ body {
 }
 .signup-footer{
   color: #333;
+}
+.signup-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.robot-signup {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .signup-page-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .robot-signup {
+    order: -1;
+  }
+}
+.signup-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  animation: slideIn 0.7s ease-in-out;
+  max-width: 850px;
+  width: 90%;
+}
+
+.robot-signup {
+  animation: float 3s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+.robot-signup svg,
+.robot-signup canvas {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.signup-container {
+  width: 350px;
+  text-align: center;
+  padding: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .signup-card {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .robot-signup {
+    order: -1;
+  }
+
+  .robot-signup svg,
+  .robot-signup canvas {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .signup-container {
+    width: 100%;
+  }
 }
